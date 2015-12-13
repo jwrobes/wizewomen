@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include head.html %}
+</head>
+<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
+{% include header.html %}
+<div id="main" class="content" role="main" itemprop="mainContentOfPage">
+    <div class="container">
+      <div class="row">
+        <article class="page col-md-8 col-md-offset-2">
+
+        <h1 class="post-title text-center hyper lighter bordered-bottom">{{ page.title }}</h1>
+        <div class="post-info text-center small"> </div>
+        </header>
+        <div class="page-body" itemprop="description">
+          {{ content }}
+        </div>
+        </footer>
+        </article>
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+
+  {% include scripts.html %}  
+</body>
+</html>
