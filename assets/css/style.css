@@ -755,13 +755,14 @@ html {
 /* THEME FONTS */
 /* ----------- */
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Raleway', sans-serif;
 }
 body input,
 body textarea,
 body .btn,
 body button {
-  font-family: 'Merriweather', serif;
+  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Merriweather', serif; */
 }
 .lighter {
   font-weight: 200 !important;
