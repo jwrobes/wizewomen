@@ -11,6 +11,19 @@
  *
  * Designed and built with all the love in the world by @hmfaysal
  */
+
+.mbl {
+  margin-bottom: 20px;
+}
+
+.header-container {
+  padding-bottom: 20px;
+}
+
+.tac {
+  text-align: center;
+}
+
 /* ------------------------ */
 /* GENERAL TYPOGRAPHY RULES */
 /* ------------------------ */
@@ -459,6 +472,63 @@ html {
   margin-bottom: 72px;
   box-sizing: border-box;
 }
+
+.bwrobes-img {
+  margin: auto;
+  height: 280px;
+}
+
+.contact-info {
+  margin-top: 40px;
+}
+
+.contact-info-text {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+@media (max-width: 767px) {
+  #masthead {
+    height: 55%;
+    margin-bottom: 0px;
+  }
+
+.bwrobes-img {
+  margin: auto;
+  height: 330px;
+}
+
+  .home-bio {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  #masthead {
+    height: 45%;
+  }
+
+  .bwrobes-img {
+    margin: auto;
+    height: 300px;
+  }
+
+  .home-bio {
+    margin-top: 10px;
+  }
+
+  .contact-info {
+    margin-top: 0px
+  }
+
+  .contact-info-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+
+}
+
 #masthead.align-left {
   text-align: left;
 }
@@ -491,7 +561,7 @@ html {
 }
 @media (max-width: 480px) {
   .brand img {
-    max-height: 60px;
+    /* max-height: 60px; */
   }
   .blog-title {
     font-size: 24px;
@@ -503,7 +573,6 @@ html {
   .image-credit {
     display: none;
   }
-  .home-template .row {margin: 0 -5px;} /* fixes overflow on homepage on small screens (caused by stacked -15px from bootstrap) */
 }
 /* ----------- */
 /* POST STYLES */
@@ -535,11 +604,11 @@ html {
 .post-body a {
   border-bottom: 1px dotted;
 }
-.page-body img {
-  max-width: 100%;
-  margin-bottom: 24px;
-  border-radius: 5px;
-}
+/* .page-body img { */
+/*   max-width: 100%; */
+/*   margin-bottom: 24px; */
+/*   border-radius: 5px; */
+/* } */
 /* - Post Share - */
 .post-share {
   margin-bottom: 48px;
@@ -585,7 +654,7 @@ html {
 /* FOOTER */
 /* ------ */
 #footer {
-  margin-top: 72px;
+  margin-top: 0px;
   padding: 124px 0 72px;
   position: relative;
   width: 100%;
@@ -4055,3 +4124,5 @@ body.slide{
 
 
 /*      End-Responsive      */
+
+

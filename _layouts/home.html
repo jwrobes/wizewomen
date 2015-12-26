@@ -4,6 +4,7 @@
 {% include head.html %}
 </head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
+{% if site.links.size > 1 %}
 <div id="fade"></div>
 <a id="slide" class="animated fade"></a>
 <aside id="sidebar">
@@ -21,13 +22,14 @@
     
     
 </aside>
+{% endif %}
 {% if page.imagefeature %}<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" itemscope itemtype="http://schema.org/Organization">
 {% else %}
 <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
 {% endif %}
 {% if site.description %}
     <div class="inner">
-        <div class="container">
+        <div class="container header-container" style="">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
 
                 {% if site.logo %}<img itemprop="logo" style="margin-bottom: 20px;" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
@@ -37,7 +39,7 @@
             </h1>
                 
             </a>
-            <h2 class="blog-description light bordered bordered-top" itemprop="description">
+            <h2 class="log-description light bordered bordered-top" itemprop="description">
                 {{ site.description }}
             </h2>
         </div>
@@ -93,12 +95,8 @@
 
 <div id="main" class="content" role="main" itemprop="mainContentOfPage">
     <div class="container">
-        <div class="row">
-            <div class="page-body" itemprop="description">
             {{ content }}
-            </div>    
         </div>
-    </div>
 </div>
     {% include footer.html %}
 
