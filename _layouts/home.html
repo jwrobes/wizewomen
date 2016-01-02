@@ -4,31 +4,44 @@
 {% include head.html %}
 </head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-{% if site.links.size > 1 %}
-<div id="fade"></div>
-<a id="slide" class="animated fade"></a>
-<aside id="sidebar">
-    <nav id="navigation">
-    <h2>MENU</h2>
-    <hr>
-{% for link in site.links %}
-            <li>{% if link.external %}
-                    <a href="{{ link.url }}">{{ link.title }}</a>
-                {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
-                {% endif %} </li>
-{% endfor %}            
-    </nav>
-    
-    
-</aside>
+  {% if site.links.size > 1 %}
+<div class="visible-xs hidden-sm hidden-md hidden-lg">
+  <div id="fade"></div>
+  <a id="slide" class="animated fade"></a>
+  <aside id="sidebar">
+      <nav id="navigation">
+      <h2>MENU</h2>
+      <hr>
+  {% for link in site.links %}
+              <li>{% if link.external %}
+                      <a href="{{ link.url }}">{{ link.title }}</a>
+                  {% else %}
+                      <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                  {% endif %} </li>
+  {% endfor %}            
+      </nav>
+  </aside>
+</div>
+<div class="hidden-xs visible-sm visible-md visible-lg">
+  <nav id="desktop-navigation">
+  <ul>
+  {% for link in site.links %}
+  <li>{% if link.external %}
+  <a href="{{ link.url }}">{{ link.title }}</a>
+  {% else %}
+  <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+  {% endif %} </li>
+  {% endfor %}            
+  </ul>
+  </nav>
+</div>
 {% endif %}
 {% if page.imagefeature %}<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" itemscope itemtype="http://schema.org/Organization">
 {% else %}
 <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
 {% endif %}
 {% if site.description %}
-    <div class="inner">
+    <div class="header-inner inner">
         <div class="container header-container" style="">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
 
@@ -45,7 +58,7 @@
         </div>
     </div>
     {% else %}
-    <div class="inner">
+    <div id="header-inner" class="inner">
         <div class="container">
             <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
                 
