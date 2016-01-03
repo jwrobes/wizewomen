@@ -43,24 +43,24 @@ google_verify:
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Home
-    url: /
-    external: false
-  - title:  About
-    url: /about
-    external: false
-  - title: Contact
-    url: /contact
-    external: false
-  - title: Services
-    url: /services
-    external: false
-  - title: Forms
-    url: /forms
-    external: false
-  - title: FAQ
-    url: /faq
-    external: false
+  # - title: Home
+  #   url: /
+  #   external: false
+  # - title:  About
+  #   url: /about
+  #   external: false
+  # - title: Contact
+  #   url: /contact
+  #   external: false
+  # - title: Services
+  #   url: /services
+  #   external: false
+  # - title: Forms
+  #   url: /forms
+  #   external: false
+  # - title: FAQ
+  #   url: /faq
+  #   external: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/San_Francisco
