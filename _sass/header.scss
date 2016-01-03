@@ -48,6 +48,17 @@ html {
     padding-top: 0px;
  }
 
+  @include iphone6-landscape {
+    padding-top: 0px;
+  }
+
+  @include ipad-landscape {
+    padding-top: 0px;
+  }
+  @include ipad-portrait{
+    height: 38%;
+    padding: 0px;
+  }
 }
 
 .bwrobes-img {
@@ -88,24 +99,40 @@ html {
   max-height: 120px;
   margin-bottom: 10px;
   @media (max-width: 480px) {
-    max-height: 80px;
+    // max-height: 80px;
   }
   @include iphone5-landscape {
     max-height: 80px;
     margin-bottom: 10px;
   }
+
+  @include iphone4-portrait {
+    max-height: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  @include iphone6-landscape {
+    margin-top: 10px;
+    max-height: 80px;
+  }
   @include iphone5-portrait {
     max-height: 80px;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   @include iphone6-landscape {
     max-height: 80px;
   }
   @include iphone6-portrait {
-    max-height: 100px;
+    max-height: 120px;
   }
   @include samsung5-landscape  {
     max-height: 80px;
+  }
+  @include samsung5-portrait {
+    margin-top: 10px;
+    max-height: 120px;
   }
 }
 
@@ -124,10 +151,17 @@ html {
     font-size: 24px;
     line-height: 24px;
   }
+
+  @include ipad-portrait{
+    margin-bottom: 50px;
+  }
 }
 
 #header-inner {
   @include iphone5-portrait {
+    vertical-align: top;
+  }
+  @include iphone6-landscape {
     vertical-align: top;
   }
 }
