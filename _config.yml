@@ -58,17 +58,11 @@ links:
   - title: Couples
     url: /couples
     external: false
-  - title: Groups
-    url: /groups
+  - title: Life coaching
+    url: /coaching
     external: false
   - title: Rates
     url: /rates
-    external: false
-  - title: FAQ
-    url: /faq
-    external: false
-  - title: Contact
-    url: /contact
     external: false
   - title: Cred
     url: /cred
