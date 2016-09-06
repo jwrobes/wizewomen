@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Rates
+description: Rates
 permalink: /rates/
 ---
 <p class="text-justify">

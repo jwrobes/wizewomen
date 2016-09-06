@@ -1,7 +1,12 @@
 <meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Wize Therapy - high quality online therapy and counseling for individuals, couples and adolescents.{% endif %}">
+{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords}}">
+  {% else %}
+<meta name="keywords" content="psychotherapy, online, teletherapy, phone, video chat, online counseling, healing, Oakland therapist, San Mateo, therapist, psychotherapist, adolescents,  PTSD, healing, psychology, integrative, development, growth, resilience, prevention, hope, depression, anxiety, grief, humanistic, srength-based, helpful, whole, holisitc, health, seeking safety, group therapy, at-risk, infertility, difficult pregnancy, recovery, survivor, support, counseling, MFT, therapeutic, somatic, eco-psychology, green business, Oakland, East Bay, California, sexuality, thriving">
+ {% endif %}
+
 
 {% if site.owner.twitter %}<!-- Twitter Cards -->
 {% if page.imagefeature %}<meta name="twitter:card" content="summary_large_image">

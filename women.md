@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Women 
+description: Women
 permalink: /women/
 ---
 <p class="text-justify">

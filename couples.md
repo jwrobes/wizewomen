@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Couples
+description: Couples
 permalink: /couples/
 ---
 <p class="text-justify">

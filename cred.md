@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Cred
+description: Cred
 permalink: /cred/
 ---
 <ul>

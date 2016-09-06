@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Life Coaching
+description: Coaching
 permalink: /coaching/
 ---
 <p class="text-justify">

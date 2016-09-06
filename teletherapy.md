@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Teletherapy
+description: Teletherapy
 permalink: /teletherapy/
 ---
 <p class="text-justify">

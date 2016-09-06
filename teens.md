@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Teens 
+description: Teens
 permalink: /teens/
 ---
 <p class="text-justify">
