@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teens
-description: Teens
+description: Bronwyn Wrobel, LMFT with Wize Therapy provides Online Therapy & Online Counseling using phone, email and video chat to support Teens Teenagers and Adolescents to build confidence, manage stress and deal with anxiety and depression. 
 permalink: /teens/
 ---
 <p class="text-justify">
