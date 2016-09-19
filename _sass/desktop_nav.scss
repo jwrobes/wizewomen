@@ -5,17 +5,22 @@ $menu-hover-color: #777;
 
   position: absolute;
   z-index: 1000;
-  width: 935px;
+  max-width: 1200px;
   top: 10px;
   margin: 0 auto; left:0px; right:0px;
   float: clear;
 
 
   ul {
-    display: inline;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
   li{
-    float: left;
+    // float: left;
+    flex: flex-grow;
     list-style-type: none;
   }
 

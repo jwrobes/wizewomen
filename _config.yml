@@ -61,6 +61,12 @@ links:
   - title: Life coaching
     url: /coaching
     external: false
+  # - title: Email Counseling
+  #   url: /email-counseling
+  #   external: false
+  # - title: Blog
+  #   url: /blog
+  #   external: false
   - title: Rates
     url: /rates
     external: false
