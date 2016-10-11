@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
 gem 'jekyll'
+gem 'jekyll-paginate'
 gem 'kramdown'
 gem 'rack-jekyll', :git => 'https://github.com/adaoraul/rack-jekyll.git'
 gem 'rake'

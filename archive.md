@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Latest Blog Post
-description: "Your personal blog."
-permalink: /blog/
-tags: [tags]
+title: Blog Archive
+description: Archive of old blog posts
+permalink: /blog/archive/
 ---
-{% for post in site.posts limit:1 %}
+
+{% for post in site.posts %}
 {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:180 %}
 {% assign modifiedtime = post.modified | date: "%Y%m%d" %}
 {% assign posttime = post.date | date: "%Y%m%d" %}
-
+<body class="" itemscope itemtype="http://schema.org/WebPage">
 <div class="row">
 <article class="post post col-md-8 col-md-offset-2">
 <header class="post-header">
@@ -65,6 +65,4 @@ in <span class="post-tags">
 </article>
 </div>
 {% endfor %}
-<div style="text-align: center">
-  <a href="/blog/archive/">See All Posts</a>
-</div>
+

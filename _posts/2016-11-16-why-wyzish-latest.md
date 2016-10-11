@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Only sort of wise"
-date:   2015-11-15 10:31:11
+title:  "Only sort of wise latest"
+date:   2015-11-16 10:31:11
 published: false
 categories: Wyzish
 ---
