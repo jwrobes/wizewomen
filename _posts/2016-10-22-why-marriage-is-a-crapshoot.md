@@ -3,7 +3,7 @@ layout: post
 title:  "Why Marriage is a Crapshoot"
 date:   2016-10-22
 published: true
-categories: 
+categories: marriage
 ---
 
 The 50% success rate of marriage in modern day America makes perfect sense to me. As a Licensed Online Therapist and married person, I’ve seen and experienced my fair share of successful and unsuccessful partnerships. Above all, ONE thing has become crystal clear: people pair up because of shared traumas rather than shared interests. And very very few people are aware of this fact. Let me explain…
