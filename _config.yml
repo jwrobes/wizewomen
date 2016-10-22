@@ -22,8 +22,8 @@ fin_color:        "255,255,255"
 gems: [jekyll-paginate]
 # Owner/author information
 owner:
-  name:          Wize Therapy 
-  avatar:         
+  name:          Bronwyn Wrobel - Wize Therapy
+  avatar:        b&wowlsketch.jpeg
 
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:   Healing Wisdom
@@ -65,9 +65,9 @@ links:
   # - title: Email Counseling
   #   url: /email-counseling
   #   external: false
-  # - title: Blog
-  #   url: /blog
-  #   external: false
+  - title: Blog
+    url: /blog
+    external: false
   - title: Rates
     url: /rates
     external: false
