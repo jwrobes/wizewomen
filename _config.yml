@@ -82,7 +82,8 @@ highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /:categories/:title/
+
 
 kramdown:
   auto_ids: true
@@ -101,7 +102,7 @@ kramdown:
 prose:
   rooturl: '_posts'
   siteurl: 'http://wizetherapy.com'
-  relativeLinks: 'http://wizetherapy.com/links.jsonp'
+  # relativeLinks: 'http://wizetherapy.com/links.jsonp'
   media: 'images'
   metadata:
     _posts:
