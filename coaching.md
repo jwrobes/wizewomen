@@ -11,5 +11,5 @@ individuals who want to achieve a new level of success in their personal or
 professional lives. I coach people through the obstacles that lie between them and
 what they want. Life coaching is provided over the phone at a time that is
 convenient for you, until your goal is achieved. Email or call for more
-information wizetherapy@gmail.com 510&#8209;497&#8209;1774
+information healing@wizetherapy.com 510&#8209;497&#8209;1774
 </p>
