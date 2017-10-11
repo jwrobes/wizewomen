@@ -12,3 +12,5 @@ permalink: /cred/
   <li> I'm a dancer and an artist who embraces and utilizes the healing powers of movement and art in therapy.</li>
   <li> I've been meditating for over 15 years and infuse my work with mindfulness and awareness as tools of self-empowerment.</li>
 </ul>
+
+Click [here](https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/understanding/coveredentities/notice.pdf) for Notice of Privacy Practices for Protected Health Information.
