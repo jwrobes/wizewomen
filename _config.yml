@@ -62,6 +62,12 @@ links:
   - title: Life coaching
     url: /coaching
     external: false
+  - title: Consultation
+    url: /consultation
+    external: false
+  - title: Workshops
+    url: /workshops
+    external: false   
   # - title: Email Counseling
   #   url: /email-counseling
   #   external: false

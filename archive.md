@@ -45,11 +45,11 @@ in <span class="post-tags">
 <div class="post-body bordered-bottom">
 {% assign excerptsize = post.excerpt | number_of_words %} 
 {{ post.excerpt }}
-{% if excerptsize <= 100 and excerptsize >= 50 %}
+<!-- {% if excerptsize <= 100 and excerptsize >= 50 %}
 <p class="lead">{{ post.excerpt | strip_html }}&hellip;</p>
 {% else %}
 <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
-{% endif %}
+{% endif %} -->
 <div class="text-center">
 {% if post.description %}
 <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
