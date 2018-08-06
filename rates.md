@@ -2,7 +2,7 @@
 layout: page
 title:  Rates
 description: Online therapy and online counseling rates with a sliding scale and may be covered by your health insurance.
-keywords: "psychotherapy, online therapy, teletherapy, phone therapy, video chat, online counseling, healing, Oakland therapist, therapist, sliding scale, insurance, paypal, psychotherapist, adolescents,  PTSD, healing, psychology, integrative, development, growth, resilience, prevention, hope, depression, anxiety, grief, humanistic, srength-based, helpful, whole, holisitc, divorce, sibling therapy, motherhood, infertility, difficult pregnancy, addiction, family planning, support, fertility issues, relationships, California, sexuality, thriving"
+keywords: "psychotherapy, online therapy, teletherapy, phone therapy, video chat, online counseling, healing, Oakland therapist, therapist, sliding scale, insurance, paypal, psychotherapist, adolescents,  PTSD, healing, psychology, integrative, development, growth, resilience, prevention, hope, depression, anxiety, grief, humanistic, srength-based, helpful, whole, holisitc, divorce, sibling therapy, motherhood, infertility, difficult pregnancy, addiction, family planning, support, fertility issues, relationships, California, Washington, Oregon, Seattle, Portland, sexuality, thriving"
 permalink: /rates/
 ---
 <p class="text-justify">
