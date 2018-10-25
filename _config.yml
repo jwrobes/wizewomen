@@ -59,9 +59,12 @@ links:
   - title: Couples
     url: /couples
     external: false
-  - title: Life coaching
-    url: /coaching
-    external: false
+  # - title: Life coaching
+  #   url: /coaching
+  #   external: false
+  - title: Spirituality
+    url: /spirituality
+    external: false  
   - title: Consultation
     url: /consultation
     external: false
