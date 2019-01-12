@@ -11,7 +11,7 @@ permalink: /blog/archive/
 {% assign posttime = post.date | date: "%Y%m%d" %}
 <body class="" itemscope itemtype="http://schema.org/WebPage">
 <div class="row">
-<article class="post post col-md-8 col-md-offset-2">
+<article class="post post col-md-12">
 <header class="post-header">
 {% if post.featured %}
 <div class="cursive">this post is featured</div>
