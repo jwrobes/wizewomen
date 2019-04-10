@@ -53,9 +53,9 @@ links:
   # - title:  Teens
   #   url: /teens
   #   external: false
-  - title: Women
-    url: /women
-    external: false
+  # - title: Women
+  #   url: /women
+  #   external: false
   - title: Couples
     url: /couples
     external: false
