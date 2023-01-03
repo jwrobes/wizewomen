@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Cred
-description: Cred
-permalink: /cred/
+title: About
+description: About
+permalink: /about/
 ---
 <ul>
   <li>I am a Licensed Marriage and Family Therapist in California #83314 and Oregon T1449. I am a Licensed Mental Health Counselor LH 60822228 in Washington. </li>

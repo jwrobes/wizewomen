@@ -47,9 +47,9 @@ links:
   - title: Home
     url: /
     external: false
-  - title: Teletherapy
-    url: /teletherapy
-    external: false
+  # - title: Teletherapy
+  #   url: /teletherapy
+  #   external: false
   # - title:  Teens
   #   url: /teens
   #   external: false
@@ -65,23 +65,23 @@ links:
   - title: Spirituality
     url: /spirituality
     external: false  
-  - title: Consultation
-    url: /consultation
-    external: false
+  # - title: Consultation
+  #   url: /consultation
+  #   external: false
   - title: Workshops
     url: /workshops
     external: false   
   # - title: Email Counseling
   #   url: /email-counseling
   #   external: false
-  - title: Blog
-    url: /blog
-    external: false
+  # - title: Blog
+  #   url: /blog
+  #   external: false
   - title: Rates
     url: /rates
     external: false
-  - title: Cred
-    url: /cred
+  - title: About
+    url: /about
     external: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
