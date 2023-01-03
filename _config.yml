@@ -83,6 +83,9 @@ links:
   - title: About
     url: /about
     external: false
+  - title: Connect
+    url: /connect
+    external: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/San_Francisco
